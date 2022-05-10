@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    column-gap: 1em;
+    list-style-type: none;
+}
+
+.header-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
