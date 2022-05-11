@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 1em 15em;
+    padding: 1em 13em;
 }
 
 header h1,h3 {
@@ -81,14 +81,15 @@ header nav {
 }
 
 #information {
-
+    color: #1F2937;
+    padding-bottom: 3em;
 }
 
 #information h2 {
-    color: #1F2937;
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 36px;
 }
 
 #img-row {
@@ -105,9 +106,10 @@ header nav {
     width: 100%;
     height: auto;
     outline: 5px solid #3882F6;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .info-box p {
     text-align: center;
+    font-size: 14px;
 }
