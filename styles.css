@@ -10,7 +10,15 @@ body {
 
 header {
     background-color: #1F2937;
+}
+
+header h1,h3 {
     color: #F9FAF8;
+}
+
+header p, a {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 header nav {
@@ -31,18 +39,23 @@ header nav {
 }
 
 .nav-links a {
-    font-size: 18px;
-    color: #E5E7EB;
     text-decoration: none;
 }
 
-.intro {
+.hero {
     display: flex;
     justify-content: center;
-
 }
 
-.img-area img {
+.hero-text {
+    width: 400px;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero-img img {
     width: 400px;
     height: auto;
 }
