@@ -79,3 +79,14 @@ header nav {
     width: 450px;
     height: auto;
 }
+
+#information {
+
+}
+
+#information h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
