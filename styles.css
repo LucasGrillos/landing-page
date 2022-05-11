@@ -10,6 +10,7 @@ body {
 
 header {
     background-color: #1F2937;
+    padding: 1em 13em;
 }
 
 header h1,h3 {
@@ -23,7 +24,7 @@ header p, a {
 
 header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -43,19 +44,26 @@ header nav {
 }
 
 .hero {
+    margin-top: 2em;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 .hero-text {
-    width: 400px;
+    width: 450px;
 }
 
 .hero h1 {
+    margin: 0;
     font-size: 48px;
 }
 
+.hero p {
+    margin: 18px 0 18px 0;
+}
+
 .hero-img img {
-    width: 400px;
+    width: 450px;
     height: auto;
 }
