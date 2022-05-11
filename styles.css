@@ -8,8 +8,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
+header, footer {
     background-color: #1F2937;
+}
+
+header {
     padding: 1em 13em;
 }
 
@@ -80,8 +83,11 @@ header nav {
     height: auto;
 }
 
-#information {
+#information, #quote-section {
     color: #1F2937;
+}
+
+#information {
     padding-bottom: 3em;
 }
 
@@ -112,4 +118,29 @@ header nav {
 .info-box p {
     text-align: center;
     font-size: 14px;
+}
+
+
+#quote-section {
+    background-color: #E5E7EB;
+}
+
+.text-container {
+    margin: auto;
+    width: 800px;
+    padding: 3em 0 3em
+}
+
+#quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight:300;
+    margin: 0;
+}
+
+#quote-section h4 {
+    margin: 0 18px 0;
+    text-align: end;
+    font-size: 18px;
+    font-weight: 700;
 }
