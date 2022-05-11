@@ -10,14 +10,14 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 1em 13em;
+    padding: 1em 15em;
 }
 
 header h1,h3 {
     color: #F9FAF8;
 }
 
-header p, a {
+header p, a, button {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -44,7 +44,7 @@ header nav {
 }
 
 .hero {
-    margin-top: 2em;
+    margin: 4em 0 4em;
     display: flex;
     justify-content: space-between;
     
@@ -61,6 +61,18 @@ header nav {
 
 .hero p {
     margin: 18px 0 18px 0;
+}
+
+.hero button {
+    background-color: #3882F6;
+    padding: 6px 18px 6px 18px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero button:hover {
+    cursor: pointer;
 }
 
 .hero-img img {
