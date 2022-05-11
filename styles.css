@@ -90,3 +90,24 @@ header nav {
     font-weight: 900;
     text-align: center;
 }
+
+#img-row {
+    display: flex;
+    justify-content: center;
+    column-gap: 4em;
+}
+
+.info-box {
+    width: 150px;
+}
+
+.info-box img {
+    width: 100%;
+    height: auto;
+    outline: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+.info-box p {
+    text-align: center;
+}
