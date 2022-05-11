@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -21,6 +21,7 @@ header nav {
 
 .logo {
     font-size: 24px;
+    margin: 0;
 }
 
 .nav-links {
@@ -33,4 +34,15 @@ header nav {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-area img {
+    width: 400px;
+    height: auto;
 }
