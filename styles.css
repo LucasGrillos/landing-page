@@ -121,24 +121,24 @@ header nav {
 }
 
 
-#quote-section {
+#quote {
     background-color: #E5E7EB;
 }
 
 .text-container {
     margin: auto;
-    width: 800px;
-    padding: 3em 0 3em
+    width: 785px;
+    padding: 5em 0 5em
 }
 
-#quote-section p {
+#quote p {
     font-size: 36px;
     font-style: italic;
     font-weight:300;
     margin: 0;
 }
 
-#quote-section h4 {
+#quote h4 {
     margin: 0 18px 0;
     text-align: end;
     font-size: 18px;
