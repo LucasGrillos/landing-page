@@ -146,7 +146,7 @@ button:hover {
 }
 
 #call-to-action {
-    padding: 4em 13em;
+    padding: 6em 13em;
 }
 
 #blue-container {
@@ -172,4 +172,15 @@ button:hover {
 
 #call-to-action button {
     outline: 3px solid #E5E7EB
+}
+
+footer {
+    padding: 2em;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
 }
