@@ -146,16 +146,28 @@ button:hover {
 }
 
 #call-to-action {
-    padding: 1em 13em;
+    padding: 4em 13em;
 }
 
 #blue-container {
     background-color: #3882F6;
-
+    border-radius: 10px;
+    padding: 3em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #call-to-action p {
+    margin: 0;
     color: #E5E7EB;
+}
+
+#call-to-action p em {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-style:normal;
+    font-weight: 500;
 }
 
 #call-to-action button {
