@@ -66,7 +66,7 @@ header nav {
     margin: 18px 0 18px 0;
 }
 
-.hero button {
+button {
     background-color: #3882F6;
     padding: 6px 18px 6px 18px;
     border: none;
@@ -74,7 +74,7 @@ header nav {
     font-weight: bold;
 }
 
-.hero button:hover {
+button:hover {
     cursor: pointer;
 }
 
@@ -143,4 +143,21 @@ header nav {
     text-align: end;
     font-size: 18px;
     font-weight: 700;
+}
+
+#call-to-action {
+    padding: 1em 13em;
+}
+
+#blue-container {
+    background-color: #3882F6;
+
+}
+
+#call-to-action p {
+    color: #E5E7EB;
+}
+
+#call-to-action button {
+    outline: 3px solid #E5E7EB
 }
